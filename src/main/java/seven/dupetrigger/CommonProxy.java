@@ -14,6 +14,4 @@ public class CommonProxy {
         // Initialize keybinds
         KeybindHandler.init();
     }
-
-    // Add other common proxy methods as needed
 }

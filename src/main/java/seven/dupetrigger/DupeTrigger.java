@@ -31,8 +31,6 @@ public class DupeTrigger {
         // Initialize the network wrapper
         networkWrapper = NetworkRegistry.INSTANCE.newSimpleChannel(MODID);
         networkWrapper.registerMessage(DupeTriggerPacketHandler.class, DupeTriggerPacket.class, 0, Side.SERVER);
-
-        // Other preInit code
     }
 
     @EventHandler
@@ -41,9 +39,7 @@ public class DupeTrigger {
         FMLCommonHandler.instance()
             .bus()
             .register(new KeybindEventHandler(networkWrapper));
-        // Other initialization code
 
-        // Print a message when the mod is loaded
         FMLLog.log(MODNAME, Level.INFO, "Dupe Trigger is ready.");
     }
 }
