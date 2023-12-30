@@ -1,0 +1,21 @@
+{
+	"modListVersion": 2,
+	"modList": [{
+		"modid": "${modId}",
+		"name": "${modName}",
+		"description": "This simple mod adds a keybind that doubles any item kept in your main hand.",
+		"version": "0.7.4",
+		"mcversion": "${minecraftVersion}",
+		"url": "https://www.curseforge.com/minecraft/mc-mods/dupe-trigger",
+		"updateUrl": "",
+		"authorList": ["Seven"],
+		"credits": "",
+    "logoFile": "assets/dupetrigger/textures/dupetrigger.png",
+    "screenshots": [],
+		"parent": "",
+		"requiredMods": [],
+		"dependencies": [],
+		"dependants": [],
+		"useDependencyInformation": true
+	}]
+}
